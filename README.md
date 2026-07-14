@@ -14,7 +14,7 @@ The system performs real-time high-frequency noise attenuation and signal valida
 ## System Architecture
 
 > **[IMAGE PLACEHOLDER: Insert your high-level RTL Block Diagram / Quartus RTL Viewer screenshot here]**
-> *(Recommended format: `./docs/images/rtl_block_diagram.png` showing the 50MHz-to-1Hz Clock Divider, the 3-stage D-Flip-Flop Delay Line, the Combinational Adder, and the Magnitude Threshold Comparator).*
+/fp-M/Block.png*
 
 ### Architecture Highlights
 * **Clock Domain Scaling:** Includes an internal clock divider downscaling the native 50MHz system clock to 1Hz, establishing a visual "slow-motion" execution domain for real-time state tracking and hardware verification.
